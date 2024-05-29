@@ -5,7 +5,7 @@ import './SpecialMenu.css';
 
 const SpecialMenu = () => {
   return (
-    <section className=' w-full flex flex-col items-center justify-center mt-8 p-3  sec-bg'>
+    <section className=' w-full flex flex-col items-center justify-center mt-8 p-3  sec-bg' id='menu'>
       <div className=' w-full h-auto flex justify-center items-center flex-col text-white'>
         <SubHeading title='Special Menu' />
         <h1 className=' w-full text-2xl text-center text-yellow-600'>Special Menu of Today </h1>

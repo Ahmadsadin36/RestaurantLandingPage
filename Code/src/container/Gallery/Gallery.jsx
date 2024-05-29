@@ -25,19 +25,19 @@ const Gallery = () => {
   };
 
   return (
-    <section className='w-full flex items-center justify-center flex-col md:flex-row p-3 mt-8'>
+    <section className='w-full flex items-center justify-center flex-col md:flex-row p-3 mt-8 bg-black text-white'>
       <div className='flex-1 flex flex-col items-start justify-start p-2 w-full md:w-auto'>
         <SubHeading title='Gallery' />
         <h1 className='text-yellow-600 text-2xl tracking-wide mb-2'>Lorem, ipsum.</h1>
         <p className='mb-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi quod sint consequatur. Deserunt mollitia adipisci culpa!</p>
-        <button className='p-3 bg-slate-500'>view more</button>
+        <button className='p-3 bg-slate-500 text-black'>view more</button>
       </div>
       <div className='flex-1 flex-row flex items-center justify-center md:justify-end gap-x-2 md:w-auto w-full'>
-        <BsArrowLeftShort className='text-3xl text-slate-500 cursor-pointer' onClick={prevImg} />
+        <BsArrowLeftShort className='text-3xl text-white cursor-pointer' onClick={prevImg} />
         <div className='flex items-center justify-center mt-10 md:mt-0'>
           <img src={galleryImages[currentImg]} alt='gallery' className='object-cover rounded-xl w-[500px] h-[300px]' ref={imageRef} />
         </div>
-        <BsArrowRightShort className='text-3xl text-slate-500 cursor-pointer' onClick={nextImg} />
+        <BsArrowRightShort className='text-3xl text-white cursor-pointer' onClick={nextImg} />
       </div>
     </section>
   );

@@ -17,7 +17,7 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => {
 
 const Laurels = () => {
   return (
-    <section className=' bg-black w-full mt-8 flex md:flex-row flex-col items-center justify-start p-3'>
+    <section className=' bg-black w-full mt-8 flex md:flex-row flex-col items-center justify-start p-3' id='awards'>
       <div className=' w-1/2 flex flex-col justify-start items-start md:items-center md:justify-center text-white'>
         <SubHeading title= "Laurels" />
         <h1 className='text-left text-yellow-600'>Our Laurels</h1>

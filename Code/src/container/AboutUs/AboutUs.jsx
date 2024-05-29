@@ -35,7 +35,7 @@ const AboutUs = () => {
 
 
   return (
-    <section className=' w-full flex justify-center items-center bg-black p-3 relative h-[600px] md:h-auto mt-8'>
+    <section className=' w-full flex justify-center items-center bg-black p-3 relative h-[600px] md:h-auto mt-8' id='about'>
     <div className=' inset-0 relative z-0 items-center justify-center flex h-[500px] md:h-auto'>
       <img className=' md:w-[65%] w-[70%]' src={images.G} alt="" />
     </div>
